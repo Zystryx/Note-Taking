@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <style name="MainTheme" parent="MainTheme.Base">
+    <item name="colorAccent">#222222</item>
+  </style>
+
+  <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker">
+    <item name="android:headerBackground">#666666</item>
+  </style>
+  
+  <style name="AppCompatDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+    <item name="colorAccent">#333333</item>
+  </style>
+
+  <style name="MyTheme.Base" parent="Theme.AppCompat.Light">
+  </style>
+
+  <style name="MyTheme" parent="MyTheme.Base">
+  </style>
+
+  <style name="splashScreen" parent ="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/instagoalslogo2</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowActionBar">true</item>
+  </style>
+  
+</resources>

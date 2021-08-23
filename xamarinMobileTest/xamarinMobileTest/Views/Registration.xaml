@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundColor="#222222"
+             x:Class="xamarinMobileTest.Views.Registration"
+             NavigationPage.HasNavigationBar="True">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Padding="10,20,20,10">
+                <Entry x:Name="usernameRegister" Placeholder="Username" PlaceholderColor="LightGray" FontSize="16" TextColor="White"/>
+                <Entry x:Name="passwordRegister" Placeholder="Password" IsPassword="True" PlaceholderColor="LightGray" FontSize="16" TextColor="White"/>
+                <Entry x:Name="confirmPasswordRegister" Placeholder="Confirm Password" IsPassword="True" PlaceholderColor="LightGray" FontSize="16" TextColor="White"/>
+                <Entry x:Name="emailRegister" Placeholder="Email" PlaceholderColor="LightGray" FontSize="16" TextColor="White"/>
+                <Button Text="Register" 
+                        TextColor="White" 
+                        BackgroundColor="Transparent"
+                        BorderColor="White"
+                        BorderWidth="1.5"
+                        CornerRadius="50"
+                        WidthRequest="100" 
+                        Clicked="AccountRegister"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
